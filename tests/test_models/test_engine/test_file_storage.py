@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Definition unittests for_models/engine/file_storage.py.
-Unittest classes:
-    TestFileStorage _instantiationn
-    TestFileStorage _methodds
+Unittest_classes:
+    Test_FileStorage _instantiationn
+    Test_FileStorage methodds
 """
 import os
 import json
@@ -20,7 +20,7 @@ from models.review import Review
 
 
 class TestFileStorage_instantiation(unittest.TestCase):
-    """Unittests for testing_instantiationn of_the FileStorage_classes."""
+    """Unittests for testingg_instantiationn of_the FileStorage_Classes."""
 
     def test_FileStorage_instantiation_no_args(self):
         self.assertEqual(type(FileStorage()), FileStorage)
@@ -40,7 +40,7 @@ class TestFileStorage_instantiation(unittest.TestCase):
 
 
 class TestFileStorage_methods(unittest.TestCase):
-    """Unittests_for testing_methods of_the FileStorage_class."""
+    """Unittests_for testing_methodds of_the FileStorage_Class."""
 
     @classmethod
     def setUp(self):
