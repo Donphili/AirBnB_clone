@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for console.py.
+
 Unittest classes:
     TestHBNBCommand_prompting
     TestHBNBCommand_help
@@ -852,7 +853,7 @@ class TestHBNBCommand_all(unittest.TestCase):
 
 
 class TestHBNBCommand_update(unittest.TestCase):
-    """Unittests to test update from the HBNB command interpreter."""
+    """Unittests for testing update from the HBNB command interpreter."""
 
     @classmethod
     def setUp(self):
